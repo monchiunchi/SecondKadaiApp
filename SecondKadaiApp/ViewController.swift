@@ -10,15 +10,33 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBAction func unwind(_ segue: UIStoryboardSegue){}
+    
+    @IBOutlet weak var textfield: UITextField!
+    
+    var text : String = ""
+    
+        override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    @IBAction func button(_ sender: Any) {
+        text = textfield.text!
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        
+        let resultViewController : ResultViewController = segue.destination as! ResultViewController
+        
+        resultViewController.value = text
+    }
+    
 
 
 }

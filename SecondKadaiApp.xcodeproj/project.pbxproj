@@ -12,6 +12,7 @@
 		98D672B7212140CE0017DA80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D672B5212140CE0017DA80 /* Main.storyboard */; };
 		98D672B9212140CE0017DA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D672B8212140CE0017DA80 /* Assets.xcassets */; };
 		98D672BC212140CE0017DA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D672BA212140CE0017DA80 /* LaunchScreen.storyboard */; };
+		98D672C42121459C0017DA80 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D672C32121459C0017DA80 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		98D672B8212140CE0017DA80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98D672BB212140CE0017DA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98D672BD212140CE0017DA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D672C32121459C0017DA80 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				98D672B1212140CE0017DA80 /* AppDelegate.swift */,
 				98D672B3212140CE0017DA80 /* ViewController.swift */,
 				98D672B5212140CE0017DA80 /* Main.storyboard */,
+				98D672C32121459C0017DA80 /* ResultViewController.swift */,
 				98D672B8212140CE0017DA80 /* Assets.xcassets */,
 				98D672BA212140CE0017DA80 /* LaunchScreen.storyboard */,
 				98D672BD212140CE0017DA80 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				98D672B4212140CE0017DA80 /* ViewController.swift in Sources */,
 				98D672B2212140CE0017DA80 /* AppDelegate.swift in Sources */,
+				98D672C42121459C0017DA80 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
